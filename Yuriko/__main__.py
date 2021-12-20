@@ -206,8 +206,21 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=False,
             )
     else:
-         caption= 💝
-        
+         update.effective_message.reply_photo(
+            yurikorobot_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{<code>{}</code>".format(
+uptime
+
+            ),
+
+            parse_mode=ParseMode.HTML,
+
+            reply_markup=InlineKeyboardMarkup(
+
+                [[InlineKeyboardButton(text="𝐒𝐨𝐮𝐫𝐜𝐞 𝐀𝐧𝐝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="t.me/JaiHindChatting")]]
+
+            ),
+
+        )        
         
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
