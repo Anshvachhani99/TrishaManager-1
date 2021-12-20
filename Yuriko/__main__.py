@@ -87,12 +87,7 @@ PM_START_TEXT = """
 
 
 HELP_STRINGS = """
-*✗ MAIN COMMANDS ✗*
-
-✗ /start - `Starts me! Your🥲🤣😃probably already used this.`
-✗ /help - `Click this I ll let you know about myself!`
-✗ /settings - `in PM: will send you your settings for all supported modules.`
-✗ *In A Group: Will Redirect You To Pm With All That Chats Settings.*)"""
+💝"""
 
 
 
