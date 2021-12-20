@@ -207,7 +207,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
          caption= 💝
-        )
+        
         
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
