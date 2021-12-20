@@ -85,28 +85,6 @@ PM_START_TEXT = """
 💕
 """
 
-buttons = [
-    [
-        InlineKeyboardButton(
-            text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="𝐌𝐮𝐬𝐢𝐜", callback_data="yurikorobot_asst"),
-        InlineKeyboardButton(
-            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"https://t.me/JaiHindChatting"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="𝐀𝐛𝐨𝐮𝐭", callback_data="yurikorobot_"),
-        InlineKeyboardButton(
-            text="𝐁𝐚𝐬𝐢𝐜 𝐇𝐞𝐥𝐩", callback_data="yurikorobot_basichelp"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="𝐀𝐝𝐝 𝐓𝐫𝐢𝐬𝐡𝐚 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩", url="http://t.me/DevilTrishaRoBot?startgroup=true"),
-    ],
-]
-
 
 HELP_STRINGS = """
 *✗ MAIN COMMANDS ✗*
